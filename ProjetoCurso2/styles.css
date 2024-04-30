@@ -19,7 +19,7 @@ body {
 }
 
 header {
-   background-color: #556672;
+   background-color: #d3d6dd;
 
 }
 
@@ -28,23 +28,6 @@ header {
     background-size: cover;
     background-position: center;
   
-}
-
-#tema {
-    text-align: center;
-    position: center;
-    padding: 10px; 
-    margin-top: 10px;
-    margin-left: 50%;
-    width: 100px;
-    height: 40px;
-    box-sizing: border-box;
-    background-color: #556672; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    text-decoration: none;
 }
 
 h1 {
@@ -63,7 +46,7 @@ h2 {
     border-radius: 10px;
     text-align: center;
     color: #ecf1f5;
-    background-color: rgba(5, 9, 26, 0.8);
+    background-color: #536b74;
     padding: 10px;
     margin-inline: 56px;
     text-shadow: 2px 3px 5px #96a5b0;
@@ -94,7 +77,7 @@ h4 {
     color: #556672;
     padding: 10px 10px;
     background-color: #f2f5f8;
-    border-left: solid 5px #b0c43f;
+    border-left: solid 5px #546da7;
     word-wrap: break-word;
     font-size: 20px;
     margin-top: 155px;
@@ -109,7 +92,7 @@ h4 {
     box-shadow: 0px 4px 16px #96a5b0;
     text-align: center;
     color: #ffffff;
-    background-color: #556672;
+    background-color: #536b74;
     padding: 10px;
     margin-inline: 556px;
     text-shadow: 2px 3px 5px #96a5b0;
@@ -135,7 +118,7 @@ h4 {
 
 .btn-cadastrar-home:hover {
     background-color: #8ea0ad;
-    color: #cbee77;
+    color: #83a5b2;
     box-shadow:  
       0 0 5px  #556672,
       0 0 25px  #71828f,
@@ -160,7 +143,7 @@ h4 {
 .nav {
     position: relative;
     text-align: center;
-    background-color: rgba(5, 9, 26, 0.9);
+    background-color: #415e69;
     color: white;
     justify-content: space-between;
     z-index: 1000;
@@ -168,10 +151,11 @@ h4 {
 
 .nav-fixed {
     position: fixed;
+    opacity: 50%;
     top: 0;
     width: 100%;
-    background-color: rgba(5, 9, 26, 0.8);
-    text-shadow: 0 2px 4px #4b5258;
+    background-color: #415e69;
+    text-shadow: 0 2px 4px #475960;
     box-shadow: 0 2px 16px #26292c;
 }
 
@@ -189,7 +173,7 @@ h4 {
 }
 
 .nav ul li a:hover {
-    color: #cbee77;
+    color: #abb8c3;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -237,7 +221,7 @@ h4 {
     text-align: center;
     color: rgb(255, 255, 255, 0.8);
     font-size: 24px;
-    background-color: #556672;
+    background-color: #d3d6dd;
     background-size: cover;
     background-position:bottom;
 }
@@ -285,7 +269,7 @@ h4 {
 
 .form-login button {
     cursor: pointer;
-    background-color: #a2be5f;
+    background-color: #be5f5f;
     color: white;
     margin-bottom: 10px; /* Espaçamento entre os elementos */
     padding: 10px; /* Espaçamento interno dos elementos */
@@ -333,8 +317,8 @@ h4 {
 .container-destaque {
     flex: 0 1 calc(33.333% - 10px); /* Divide em 3 colunas com espaço entre elas */
     padding: 20px;
-    background-color: #cbee77 ;
-    box-shadow: 0 4px 16px #515f30;
+    background-color: 	#b1c8d2 ;
+    box-shadow: 0 4px 16px #536b74;
     border-radius: 10px;
     position: relative;
     color: rgb(0, 0, 0);
@@ -349,7 +333,7 @@ h4 {
 }
 
 .container-destaque:hover {
-    background-color: #7a8f47;
+    background-color: 	#67838d;
     background-size:cover;
     background-position: center;
     flex: 0 1 calc(33.333% - 10px); /* Divide em 3 colunas com espaço entre elas */
@@ -409,13 +393,13 @@ h4 {
     text-align: center;
     font-size: 20px;
     cursor: pointer;
-    background-color: #a3b7eb;
+    background-color: #abb8c3;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .container-pesquisa button:hover {
-    background-color: #6096e5;
+    background-color: #536b74;
 }
 
 .container-pesquisa label {
@@ -439,7 +423,7 @@ h4 {
     color: #556672;
     padding: 10px 10px;
     background-color: #f2f5f8;
-    border-left: solid 5px #556672;
+    border-left: solid 5px 	#546da7;
     margin-bottom: 0;
     font-size: 20px;
     margin-left: 20%;
@@ -731,3 +715,4 @@ footer p {
     padding: 10px 0;
     margin-top: auto;
 }
+
